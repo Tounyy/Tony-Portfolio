@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Architects+Daughter&family=Be+Vietnam+Pro:wght@500&family=Caveat:wght@700&family=Dancing+Script:wght@700&family=Josefin+Sans:ital@1&family=Montserrat:wght@400;500&family=Nunito:ital,wght@0,700;1,200;1,300;1,400;1,500;1,600&family=Poppins&family=Spline+Sans:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+	box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+a {
+	text-decoration: none;
+	font-size: 20px;
+}
+
+/* Home */
+#home {
+    background-image: url(./img/wallpaperflare.com_wallpaper.jpg); 
+	background-size: cover;
+	background-position: top center;
+	position: relative;
+	z-index: 1;
+    min-height: 100vh;
+    width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+#home::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-color: black;
+	opacity: 0.75;
+	z-index: -1;
+}
+
+#home .container {
+	min-height: 100vh;
+	width: 100%;	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    top: -25px;
+    position: absolute;
+}
+
+#home .home {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+#home .home-info {
+    display: block;
+    text-align: center;
+    position: relative;
+    top: 10px;
+    box-sizing: border-box;
+}
+
+#home .home-info h1 {
+    text-align: center;
+    position: relative;
+    top: -20px;
+    color: rgb(233, 231, 231);
+    font-size: 2.5rem;
+}
+
+#home .home-info h2 {
+    text-align: center;
+    position: relative;
+    top: -30px;
+    color: rgb(233, 231, 231);
+    font-size: 2.5rem;
+}
+
+#home .home-info h3 {
+    text-align: center;
+    position: relative;
+    top: -40px;
+    color: #2196f3;
+    font-size: 2.5rem;
+}
+
+#home .home-info span {
+    text-align: center;
+    color: #64b5f6;
+}
+/* End Home */
