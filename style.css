@@ -13,7 +13,7 @@ html {
 
 a {
 	text-decoration: none;
-	font-size: 20px;
+	font-size: 15px;
 }
 
 /* Home */
@@ -94,4 +94,27 @@ a {
     text-align: center;
     color: #64b5f6;
 }
+
+/* Button */
+#home .cta {
+	display: inline-block;
+    padding: 15px 30px;
+	color: #448aff;
+	background-color: transparent;
+	border: 2px solid #2196f3;
+	font-size: 2rem;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin-top: -10px;
+	transition: 0.3s ease;
+    transition-property: background-color, color;
+    z-index: 100;
+    border-radius: 15px 15px 15px 15px;
+    font-size: 23px;
+}
+#home .cta:hover {
+	color: white;
+	background-color: #2196f3;
+}
+/* End Button */
 /* End Home */
