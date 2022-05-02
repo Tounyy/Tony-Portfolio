@@ -5,6 +5,7 @@
     margin: 0;
 	box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    list-style: none;
 }
 
 html {
@@ -209,7 +210,6 @@ a {
         background-color: #2196f3;
     }
 }
-
 /* End Home,Button */
 
 /* Header */
@@ -465,3 +465,113 @@ a {
     }
 }
 /* End Header */
+
+/* Projects */
+#projects {
+	width: 100%;
+	min-height: 100vh;
+	padding: 150px 100px 100px;
+	top: 0;
+	transition: 1s;
+	background-color: #191919;
+}
+
+#projects .projects-heading {
+	font-size: 80px;
+	background: rgb(124, 116, 116);
+	text-transform: capitalize;
+	text-align: center;
+	margin-bottom: 50px;
+	color: #1a1a1a;
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-stroke: 8px transparent;
+}
+/* End Projects */
+
+/* Footer */
+footer {
+    background: #111;
+    height: 10%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 4px;
+    color: #fff;
+    text-align: center;
+}
+
+footer span {
+    position: relative;
+    top: 10px;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+
+.footer-content h3 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer-content p {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5rem 0 2.5rem 0;
+}
+
+.socials li {
+    margin: 0 10px;
+}
+
+.socials a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.socials a i {
+    font-size: 1.1rem;
+    transition: color .4s ease;
+}
+
+.socials a:hover {
+    color: #42a5f5;
+}
+
+.footer-bottom {
+    background-color: #000;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.footer-bottom span {
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+/* End Footer */
