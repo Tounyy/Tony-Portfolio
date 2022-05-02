@@ -16,6 +16,11 @@ a {
 	text-decoration: none;
 }
 
+img {
+    width: 350px;
+    height: 250px;
+}
+
 /* Home */
 #home {
     background-image: url(./img/wallpaperflare.com_wallpaper.jpg); 
@@ -210,6 +215,7 @@ a {
         background-color: #2196f3;
     }
 }
+
 /* End Home,Button */
 
 /* Header */
@@ -467,25 +473,145 @@ a {
 /* End Header */
 
 /* Projects */
-#projects {
-	width: 100%;
-	min-height: 100vh;
-	padding: 150px 100px 100px;
-	top: 0;
-	transition: 1s;
-	background-color: #191919;
+#project {
+	position: relative;
+    min-height: 100vh;
+    width: 100%;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	z-index: 1;
+    background-color: #292828;
 }
 
-#projects .projects-heading {
-	font-size: 80px;
-	background: rgb(124, 116, 116);
-	text-transform: capitalize;
+.lrapper {
+	width: 100%;
+	display: flex;
+	justify-content: center;
 	text-align: center;
-	margin-bottom: 50px;
-	color: #1a1a1a;
-	background-clip: text;
-	-webkit-background-clip: text;
-	-webkit-text-stroke: 8px transparent;
+	flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+#project .heading {
+    font-size: 5rem;
+    background: #686262;
+    text-transform: capitalize;
+    text-align: center;
+    color: #161616;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-stroke: 8px transparent;
+    position: relative;
+    top: 20px;
+}
+
+.lrapper .container {
+	position: relative;
+	width: 500px;
+	color: #fff;
+	background: rgb(29, 28, 28);
+	margin: 10px 5px;
+	padding: 30px 20px;
+	border-radius: 3px;
+	transition: 0.3s ease;
+	border-radius: 25px 25px 25px 25px;
+    border-radius: 1px solid black;
+	height: 530px;
+}
+
+.lrapper .container .coffee-info {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	top: -10%;
+	width: 100%;
+	display: block;
+}
+
+.lrapper .container .coffee-info .imgboox {
+	position: relative;
+	height: 320px;
+	width: 450px;
+	margin: auto;
+	overflow: hidden;
+	position: relative;
+	border-radius: 5px 5px 5px 5px;
+    top: 80px;
+}
+
+.lrapper .container .coffee-info .imgboox img {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	transition: 0.3s ease;
+}
+
+.lrapper .container .coffee-info .imgboox:hover img {
+	filter: saturate(140%);
+	transform: translate(0.20);
+}
+
+.lrapper .container .coffee-info h2 {
+	padding: 5px 0;
+	text-transform: capitalize;
+	color: #fff;
+	letter-spacing: 1px;
+	text-align: center;
+	position: relative;
+	bottom: -100px;
+    font-size: 25px;
+}
+
+.lrapper .container p {
+	margin-top: 100px;
+    margin-left: -5px;
+	color: #fff;
+	padding: 0 8px;
+	font-size: 15px;
+	opacity: 0.8;
+    text-align: center;
+}
+
+.btn {
+    background: none;
+    border: 2px solid #000;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    padding: 12px 20px;
+    min-width: 200px;
+    margin: 10px;
+    cursor: pointer;
+    transition: color 0.4s linear;
+    position: relative;
+}
+
+#project a {
+    color: #fff;
+}
+
+.btn::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    z-index: -1;
+    transition: transform 0.5s;
+    transform-origin: 0 0;
+    transition-timing-function: cubic-bezier(0.5,1.6,0.4,0.7);
+}
+
+.btn::before {
+    transform: scaleX(0);
+}
+
+.btn:hover::before {
+    transform: scaleX(1);
 }
 /* End Projects */
 
