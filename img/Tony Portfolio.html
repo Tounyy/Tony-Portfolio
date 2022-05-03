@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<!-- saved from url=(0042)http://127.0.0.1:5500/Portfolio/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tony Portfolio</title>
+    
+    <link rel="stylesheet" href="./Tony Portfolio_files/style.css"><link rel="stylesheet" href="./Tony Portfolio_files/bootstrap-icons.css"></head>
+<body>
+    <!--Home-->
+    <section id="home">
+        <div class="home container">
+            <div class="home-info">
+                <h1>Hello, my name is</h1>
+                <h2>Tony, And I'm</h2>
+                <h3><b class="auto-type">Fronte</b><span class="typed-cursor" aria-hidden="true">|</span></h3>
+                <a href="http://127.0.0.1:5500/Portfolio/index.html#contact" type="button" class="cta">Contact me!</a>
+            </div>
+        </div>
+    </section>
+    <!--End Home-->
+
+    <!--Navbar-->
+    <section id="header">
+        <div class="header container" style="background-color: rgba(0, 0, 0, 0.533);">
+            <div class="nav-bar">
+                <div class="brand">
+                    <a href="http://127.0.0.1:5500/Portfolio/index.html#home"><img src="./Tony Portfolio_files/Logo.jpeg"></a>
+                </div>
+                <div class="nav-list">
+                    <div class="hamburger"><div class="bar"></div></div>
+                    <ul>
+                        <li><a href="http://127.0.0.1:5500/Portfolio/index.html#home" data-after="Home"><h1>Home</h1></a></li>
+                        <li><a href="http://127.0.0.1:5500/Portfolio/index.html#about" data-after="About"><h1>About</h1></a></li>
+                        <li><a href="http://127.0.0.1:5500/Portfolio/index.html#project" data-after="Projects"><h1>Projects</h1></a></li>
+                        <li><a href="http://127.0.0.1:5500/Portfolio/index.html#contact" data-after="Contact"><h1>Contact</h1></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End Navbar-->
+
+    <!--Projects-->
+    <section id="project">
+        <div class="heading">Some of my Projects</div>
+        <div class="lrapper">
+            <div class="container">
+                <div class="coffee-info">
+                    <div class="imgboox">
+                        <img src="./Tony Portfolio_files/Cafe.png">
+                    </div>
+                    <h2>Coffee Shop</h2>
+                    <p>-&gt; HTML, CSS and Javascript</p>
+                    <button class="btn"><a href="https://tounyy.github.io/Coffee-Shop/">See Live</a></button>                
+                </div>
+            </div>
+            <div class="container">
+                <div class="coffee-info">
+                    <div class="imgboox">
+                        <img src="./Tony Portfolio_files/Japanese Res..png">
+                    </div>
+                    <h2>Japanese Restaurant</h2>
+                    <p>-&gt; HTML, CSS and Javascript</p>
+                    <button class="btn"><a href="https://tounyy.github.io/Japanese-Restaurant/">See Live</a></button>                
+                </div>
+            </div>
+            <div class="container">
+                <div class="coffee-info">
+                    <div class="imgboox">
+                        <img src="./Tony Portfolio_files/First Port..png">
+                    </div>
+                    <h2>Tony Website</h2>
+                    <p>-&gt; HTML, CSS and Javascript</p>
+                    <button class="btn"><a href="https://tounyy.github.io/Tony-Website/">See Live</a></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End Projects-->
+
+    <!--Footer-->
+    <footer>
+        <div class="footer-content">
+            <h3><span>Tony</span></h3>
+            <p>Your Complete Web Solution</p>
+            <ul class="socials">
+                <li><a href="https://www.facebook.com/tony.luutony.1/"><i class="bi bi-facebook"></i></a></li>
+                <li><a href="https://github.com/Tounyy"><i class="bi bi-github"></i></a></li>
+                <li><a href="https://www.instagram.com/_tony_luu_/"><i class="bi bi-instagram"></i></a></li>
+                <li><a href="https://www.youtube.com/channel/UCWBKoIHnysnyK4LzJgtBdqQ"><i class="bi bi-youtube"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>Copyright © 2022 Tony. All rights reserved</p>
+        </div>
+    </footer>
+    <!--End Footer-->
+
+    <script src="./Tony Portfolio_files/typed.js@2.0.12"></script>
+    <script src="./Tony Portfolio_files/app.js"></script><style type="text/css" data-typed-js-css="true">
+        .typed-cursor{
+          opacity: 1;
+        }
+        .typed-cursor.typed-cursor--blink{
+          animation: typedjsBlink 0.7s infinite;
+          -webkit-animation: typedjsBlink 0.7s infinite;
+                  animation: typedjsBlink 0.7s infinite;
+        }
+        @keyframes typedjsBlink{
+          50% { opacity: 0.0; }
+        }
+        @-webkit-keyframes typedjsBlink{
+          0% { opacity: 1; }
+          50% { opacity: 0.0; }
+          100% { opacity: 1; }
+        }
+      </style>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body></html>

@@ -508,7 +508,7 @@ img {
 
 .lrapper .container {
 	position: relative;
-	width: 500px;
+	width: 540px;
 	color: #fff;
 	background: rgb(29, 28, 28);
 	margin: 10px 5px;
@@ -532,7 +532,7 @@ img {
 .lrapper .container .coffee-info .imgboox {
 	position: relative;
 	height: 320px;
-	width: 450px;
+	width: 500px;
 	margin: auto;
 	overflow: hidden;
 	position: relative;
@@ -612,6 +612,206 @@ img {
 
 .btn:hover::before {
     transform: scaleX(1);
+}
+
+@media only screen and (max-width: 600px) and (min-width: 500px){
+    #project .heading {
+        font-size: 2.8rem;
+        background: #686262;
+        text-transform: capitalize;
+        text-align: center;
+        color: #161616;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-stroke: 8px transparent;
+        position: relative;
+        top: 20px;
+    }
+
+    .lrapper .container {
+        position: relative;
+        width: 480px;
+        color: #fff;
+        background: rgb(29, 28, 28);
+        margin: 10px 5px;
+        padding: 30px 20px;
+        border-radius: 3px;
+        transition: 0.3s ease;
+        border-radius: 25px 25px 25px 25px;
+        border-radius: 1px solid black;
+        height: 530px;
+    }
+    
+    .lrapper .container .coffee-info .imgboox {
+        position: relative;
+        height: 320px;
+        width: 450px;
+        margin: auto;
+        overflow: hidden;
+        position: relative;
+        border-radius: 5px 5px 5px 5px;
+        top: 80px;
+    }
+}
+
+@media only screen and (max-width: 499px) and (min-width: 450px){
+    #project .heading {
+        font-size: 2.3rem;
+        background: #686262;
+        text-transform: capitalize;
+        text-align: center;
+        color: #161616;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-stroke: 8px transparent;
+        position: relative;
+        top: 20px;
+    }
+
+    .lrapper .container {
+        position: relative;
+        width: 480px;
+        color: #fff;
+        background: rgb(29, 28, 28);
+        margin: 10px 5px;
+        padding: 30px 20px;
+        border-radius: 3px;
+        transition: 0.3s ease;
+        border-radius: 25px 25px 25px 25px;
+        border-radius: 1px solid black;
+        height: 480px;
+    }
+    
+    .lrapper .container .coffee-info .imgboox {
+        position: relative;
+        height: 280px;
+        width: 400px;
+        margin: auto;
+        overflow: hidden;
+        position: relative;
+        border-radius: 5px 5px 5px 5px;
+        top: 80px;
+    }
+}
+
+@media only screen and (max-width: 449px) and (min-width: 400px){
+    #project .heading {
+        font-size: 2.3rem;
+        background: #686262;
+        text-transform: capitalize;
+        text-align: center;
+        color: #161616;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-stroke: 8px transparent;
+        position: relative;
+        top: 20px;
+    }
+
+    .lrapper .container {
+        position: relative;
+        width: 470px;
+        color: #fff;
+        background: rgb(29, 28, 28);
+        margin: 10px 5px;
+        padding: 30px 20px;
+        border-radius: 3px;
+        transition: 0.3s ease;
+        border-radius: 25px 25px 25px 25px;
+        border-radius: 1px solid black;
+        height: 485px;
+    }
+    
+    .lrapper .container .coffee-info .imgboox {
+        position: relative;
+        height: 275px;
+        width: 370px;
+        margin: auto;
+        overflow: hidden;
+        position: relative;
+        border-radius: 5px 5px 5px 5px;
+        top: 80px;
+    }
+}
+
+@media only screen and (max-width: 399px) and (min-width: 350px){
+    #project .heading {
+        font-size: 2.05rem;
+        background: #686262;
+        text-transform: capitalize;
+        text-align: center;
+        color: #161616;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-stroke: 8px transparent;
+        position: relative;
+        top: 20px;
+    }
+
+    .lrapper .container {
+        position: relative;
+        width: 470px;
+        color: #fff;
+        background: rgb(29, 28, 28);
+        margin: 10px 5px;
+        padding: 30px 20px;
+        border-radius: 3px;
+        transition: 0.3s ease;
+        border-radius: 25px 25px 25px 25px;
+        border-radius: 1px solid black;
+        height: 435px;
+    }
+    
+    .lrapper .container .coffee-info .imgboox {
+        position: relative;
+        height: 220px;
+        width: 320px;
+        margin: auto;
+        overflow: hidden;
+        position: relative;
+        border-radius: 5px 5px 5px 5px;
+        top: 80px;
+    }
+}
+
+@media only screen and (max-width: 349px) and (min-width: 320px){
+    #project .heading {
+        font-size: 1.8rem;
+        background: #686262;
+        text-transform: capitalize;
+        text-align: center;
+        color: #161616;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-stroke: 8px transparent;
+        position: relative;
+        top: 20px;
+    }
+
+    .lrapper .container {
+        position: relative;
+        width: 470px;
+        color: #fff;
+        background: rgb(29, 28, 28);
+        margin: 10px 5px;
+        padding: 30px 20px;
+        border-radius: 3px;
+        transition: 0.3s ease;
+        border-radius: 25px 25px 25px 25px;
+        border-radius: 1px solid black;
+        height: 415px;
+    }
+    
+    .lrapper .container .coffee-info .imgboox {
+        position: relative;
+        height: 200px;
+        width: 290px;
+        margin: auto;
+        overflow: hidden;
+        position: relative;
+        border-radius: 5px 5px 5px 5px;
+        top: 80px;
+    }
 }
 /* End Projects */
 
