@@ -32,7 +32,6 @@
                     <div class="hamburger"><div class="bar"></div></div>
                     <ul>
                         <li><a href="#home" data-after="Home"><h1>Home</h1></a></li>
-                        <li><a href="#about" data-after="About"><h1>About</h1></a></li>
                         <li><a href="#project" data-after="Projects"><h1>Projects</h1></a></li>
                         <li><a href="#contact" data-after="Contact"><h1>Contact</h1></a></li>
                     </ul>
@@ -80,6 +79,19 @@
     </section>
     <!--End Projects-->
 
+    <!--Contact-->
+    <section id="contact">
+        <form onsubmit="sendEmail(); reset(); return false;">
+            <h3>Get In Touch</h3>
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Email ID" required>
+            <input type="text" id="phone" placeholder="Your Phone" required>
+            <textarea id="message" rows="4" placeholder="How can we help you?"></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    <!--End Contact-->
+
     <!--Footer-->
     <footer>
         <div class="footer-content">
@@ -90,6 +102,7 @@
                 <li><a href="https://github.com/Tounyy"><i class="bi bi-github"></i></a></li>
                 <li><a href="https://www.instagram.com/_tony_luu_/"><i class="bi bi-instagram"></i></a></li>
                 <li><a href="https://www.youtube.com/channel/UCWBKoIHnysnyK4LzJgtBdqQ"><i class="bi bi-youtube"></i></a></li>
+                <li><a href="tel:(+420) 773 468 601"><i class="bi bi-telephone-fill"></i></a></li>
             </ul>
         </div>
         <div class="footer-bottom">
@@ -97,7 +110,7 @@
         </div>
     </footer>
     <!--End Footer-->
-
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script src="./app.js"></script>
 </body>

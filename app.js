@@ -30,3 +30,17 @@ var typed = new Typed(".auto-type", {
     backSpeed: 250,
     loop: true
 })
+
+function sendEmail(){
+	Email.send({
+		Host : "smtp.elasticemail.com",
+		Username : "tonyluu125576@gmail.com",
+		Password : "478026E38680BB8246BC12ACD239AB551AE8",
+		To : 'luutony82@gmail.com',
+		From : document.getElementById("email").value,
+		Subject : "New Contact Form Enquiry",
+		Body : "And this is the body"
+	}).then(
+	message => alert("Message Send Succesfully")
+	);
+}
